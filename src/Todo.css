@@ -1,0 +1,125 @@
+body {
+    background-color: #412067;
+    color: white;
+    font-family: cursive;
+}
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form > input {
+    margin-bottom: 10px;
+    height: 20px;
+    border: none;
+    background-color: #7952a0;
+    color: rgba(255, 255, 255, 0.644);
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.24);
+}
+form > button{
+    padding: 7px;
+    width: 70%;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.24);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #61328f;
+    color: white;
+}
+form > button:hover {
+    width: 75%;
+    background-color: #411e64;
+}
+.done {
+    text-decoration: line-through;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.btnaddtask {
+    background-color: #32185034;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+button img {
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.card {
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addButton{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: #AA7CD9;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cardModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #AA7CD9;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.hide{
+    display: none;
+}
+.btnClearTasks{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #AA7CD9;
+}
